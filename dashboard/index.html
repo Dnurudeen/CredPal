@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container my-5">
+        <fieldset>
+            <legend><h1>Register User</h1></legend>
+            <form action="insert.php" method="post">
+                <div class="form-group">
+                    <input type="text" class="form-control" name="fname" placeholder="Firstname" id="">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="lname" placeholder="Lastname">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" name="uname" placeholder="Username">
+                </div>
+                <div class="form-group">
+                    <input type="email" class="form-control" name="email" placeholder="Email address">
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control" name="pass" placeholder="Password">
+                </div>
+                <!-- <input type="password" name="cpass" placeholder="Confirm Password"> <br><br> -->
+
+                <button name="submit" class="btn btn-primary">Submit</button>
+            </form>
+            <div class="my-4">
+                Already have an account? <a href="login.php">login</a>
+            </div>
+        </fieldset>
+    </div>
+</body>
+</html>
